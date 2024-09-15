@@ -94,5 +94,4 @@ Resources:
       VpcId: !Ref MyVPC
       # the select function allows us to select across a list
       CidrBlock: !Select [2, !Ref DbSubnetIpBlocks]
-
       
